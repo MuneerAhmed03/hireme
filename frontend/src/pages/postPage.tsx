@@ -23,7 +23,7 @@ export default function Component() {
       setImage(queryImage);
     }
 
-    const ogurl = `http://localhost:3000/og?title=${encodeURIComponent(pageTitle)}&content=${encodeURIComponent(pageContent)}&imageUrl=${encodeURIComponent(image)}`;
+    const ogurl = `https://test-5d2j.onrender.com/api/generate-og-image?title=${encodeURIComponent(pageTitle)}&content=${encodeURIComponent(pageContent)}&imageUrl=${image}`;
     setOgImageUrl(ogurl);
   }, [pageTitle, pageContent, image]);
 
@@ -46,6 +46,7 @@ export default function Component() {
             height={600}
             alt="Post Image"
             className="rounded-lg overflow-hidden object-cover aspect-[2/1]"
+            loading="lazy"
           />
         </div>
         <div id='content' className="prose prose-gray dark:prose-invert mt-8">
