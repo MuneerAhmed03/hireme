@@ -1,4 +1,4 @@
-import React, { useState, ChangeEvent, useRef } from 'react';
+import React, { useState, ChangeEvent } from 'react';
 import { Image, Send } from "lucide-react";
 import { useNavigate } from 'react-router-dom';
 
