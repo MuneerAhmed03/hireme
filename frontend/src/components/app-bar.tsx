@@ -2,7 +2,7 @@ import { Pencil } from "lucide-react";
 
 export function AppBar() {
   return (
-    <header className="flex items-center  justify-between bg-background px-4 py-3 shadow-sm sm:px-6 bg-gradient-to-r from-purple-950 to-blue-950 text-white">
+    <header className="flex items-center  justify-between bg-background px-4 py-3 shadow-sm sm:px-6 bg-gradient-to-r from-stone-900 to-blue-950 text-white">
       <div className="flex items-center gap-4">
         <a href="\" className="flex items-center gap-2">
           <span className="text-2xl font-bold inline-block">HireMe</span>
