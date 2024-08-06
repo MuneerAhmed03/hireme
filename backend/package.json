@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "scripts": {
+    "dev": "wrangler dev src/index.tsx",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@napi-rs/image": "^1.9.2",
+    "canvas": "^2.11.2",
+    "hono": "^4.5.3",
+    "node-fetch": "^3.3.2",
+    "satori": "^0.10.14",
+    "sharp": "^0.33.4",
+    "svg2img": "^1.0.0-beta.2",
+    "svg2png-wasm": "^1.4.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "wrangler": "^3.68.0"
+  }
+}
